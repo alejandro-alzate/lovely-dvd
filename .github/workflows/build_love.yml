@@ -1,0 +1,9 @@
+name: Build Love2D
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_love:
+    runs-on: ubuntu-latest
+      
